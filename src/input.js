@@ -75,7 +75,7 @@ class InputHandler {
 
 function startWorld(){
   var imageSky = new Image();
-  imageSky.src = 'https://people.ucsc.edu/~jleckron/Lab_5/objs/cloud.jpg';
+  imageSky.src = 'https://github.com/jleckron/LightingDemo/blob/main/objs/cloud.jpg';
   imageSky.onload = function() {
       _inputHandler.image = imageSky;
       var shape = new TexturedTiltedCube(shader, -.1, -.1, .1, size+.2, imageSky, 1);
@@ -88,7 +88,7 @@ function startWorld(){
       _inputHandler.image = imageWall;
       generateWalls(imageWall);
   };
-  imageWall.src = 'https://people.ucsc.edu/~jleckron/Lab_5/objs/wall.jpg';
+  imageWall.src = 'https://github.com/jleckron/LightingDemo/blob/main/objs/wall.jpg';
 }
 
 function generateWalls(imageWall){
