@@ -1,6 +1,8 @@
 # LightingDemo
 Lighting the Virtual World. Lab 5 for UCSC CMPS 160
 
+[See it work](https://jleckron.github.io/LightingDemo/)
+
 
 ## Usage:
 ### I recommend initially pressing "z" to switch camera to perspective 
