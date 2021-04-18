@@ -2,7 +2,7 @@
 Lighting the Virtual World. Lab 5 for UCSC CMPS 160
 
 
-##Usage:
+## Usage:
 ### I recommend initially pressing "z" to switch camera to perspective 
   - Look around: Move mouse
   - Move horizontal left: (Arrow Key <- or "A")
