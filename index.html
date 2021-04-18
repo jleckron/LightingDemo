@@ -43,10 +43,32 @@
 
  </head>
 
- <body onload = "main()">
-   <canvas id="webgl" width="600" height="600">
-     Please use a browser that supports "canvas"
-   </canvas>
+ <body onload = "main()" style="flex-direction: row">
+  <table>
+    <tr>
+      <td>
+        <canvas id="webgl" width="600" height="600">
+          Please use a browser that supports "canvas"
+        </canvas>
+      </td>
+      <td>
+        <h3>I recommend initially pressing "z" to switch camera to perspective.</h3>
+        <p><h3>Usage: </h3>
+          Look around: Move mouse<br/>
+          Move horizontal left: (Arrow Key <- or "A")<br/>
+          Move horizonatal right: (Arrow key -> or "D")<br/>
+          Move forward in camera look direction: (Arrow key up or "W")<br/>
+          Move back in camera look direction: (Arrow down up or "S")<br/>
+          Zoom in: ("O" or mouse scroll)<br/>
+          Zoom out: ("L" or mouse scroll)<br/>
+          Switch Camera mode between Orthograpic and Perspective: "Z"
+        </p>
+      </td>
+    </tr>
+  </table>
+
+
+   
 
  </body>
 </html>
