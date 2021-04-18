@@ -12,3 +12,7 @@ Lighting the Virtual World. Lab 5 for UCSC CMPS 160
   - Zoom in: ("O" or mouse scroll)
   - Zoom out: ("L" or mouse scroll)
   - Switch Camera mode between Orthograpic and Perspective: "Z" 
+
+
+## May render slow dependednt on machine or browser
+### I have found Safari and Firefox to run faster than Chrome
